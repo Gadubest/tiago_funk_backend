@@ -6,7 +6,7 @@ const conexao = new sequelize(
     process.env.DB_USER,
     process.env.DB_PASSWORD,
     {
-        dialect:"mysql",
+        dialect:"postgres",
         host:process.env.DB_HOST
     }
 )
